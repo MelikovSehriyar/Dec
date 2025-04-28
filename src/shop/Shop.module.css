@@ -1,0 +1,37 @@
+.shop{
+    background-image: url(https://preview.colorlib.com/theme/cozastore/images/banner-02.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
+    padding: 120px 180px;
+    gap: 20px;
+    h6{
+      position: relative;
+      top: 50px;
+      font-weight: 100;
+      font-size: 19px;
+    }
+    h1{
+      width: 50%;
+      font-size: 80px;
+      font-weight: 100;
+      position: relative;
+      top: 50px;
+    }
+    a{
+      color: white;
+      background-color:rgb(47, 86, 137) ;
+    }
+    button{
+        background-color:rgb(47, 86, 137) ;
+        position: absolute;
+        border: none;
+        width: 180px;
+        height: 50px;
+        top: 650px;
+    }
+  }

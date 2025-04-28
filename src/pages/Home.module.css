@@ -1,0 +1,47 @@
+.ncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cards {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+.card1 {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 50px;
+}
+.btns{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* button{
+        width: 80px;
+        height: 50px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: orangered;
+        color: black;
+    } */
+}
